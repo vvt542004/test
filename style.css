@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ul {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+}
+.containe {
+    max-width: 1200px;
+    margin: auto;
+}
+header {
+    background-color: yellow;
+    text-align: center;
+}
+/*---nav---*/
+nav {
+    background-color: black;
+}
+nav ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav ul li, a {
+    color: white;
+
+}
