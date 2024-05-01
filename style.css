@@ -131,3 +131,46 @@ nav ul li:nth-child(9):hover a {
     color: yellow;
 
 }
+/*----- menu-bar----*/
+.menu-bar {
+    background-color: orange;
+    
+}
+.menu-bar ul {
+    display: flex;
+    justify-content: space-between;
+}
+.menu-bar ul li a {
+    color: black;
+    font-size: 15px;
+}
+.menu-bar ul li a {
+    margin-right: 6px;
+    font-size: 16px;
+}
+.menu-bar ul li {
+    padding: 12px 6px;
+    transition: all 0.3s ease;
+
+}
+.menu-bar ul li:hover {
+    background-color: white;
+}
+.menu-bar ul li:nth-child(9) {
+    position: relative;
+
+}
+.menu-bar ul li:nth-child(9)::before {
+    position: absolute;
+    content: "Giảm 6%";
+    display: block;
+    height: 15px;
+    width: 45px;
+    background-color: red;
+    border-radius: 5px;
+    right: 0;
+    top: 0;
+    font-size: 10px;
+    padding-left: 3px;
+    color: white;
+}
