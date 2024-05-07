@@ -413,4 +413,8 @@ li {
 .slider-content-left-top {
     transition: all 0.3s ease;
 }
+.slider-content-left-bottom li.active {
+    border-top: 4px solid #FFF200;
+    font-weight: bold;
+}
 
