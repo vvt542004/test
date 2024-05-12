@@ -42,7 +42,7 @@ function removeactive (){
     let imgactive = document.querySelector('.active')
     imgactive.classList.remove("active")
 }
-//----slide-product----
+//----slide-product--one--
 const rightbtntwo = document.querySelector('.fa-chevron-right-two')
 const leftbtntwo = document.querySelector('.fa-chevron-left-two')
 const imgNubertwo = document.querySelectorAll('.slide-product-one-content-items')
@@ -59,4 +59,22 @@ leftbtntwo.addEventListener("click", function(){
         index=imgNubertwo.length-1
     }
     document.querySelector(".slide-product-one-content-items-content").style.right = index * 100+"%"
+})
+//slide-product-two--
+const rightbtnthree = document.querySelector('.fa-chevron-right-three')
+const leftbtnthree = document.querySelector('.fa-chevron-left-three')
+const imgNuberthree = document.querySelectorAll('.slide-product-two-content-items')
+rightbtnthree.addEventListener("click", function(){
+    index = index + 1
+    if(index>imgNuberthree.length-1){
+        index=0
+    }
+    document.querySelector(".slide-product-two-content-items-content").style.right = index * 100+"%"
+})
+leftbtnthree.addEventListener("click", function(){
+    index = index-1
+    if(index<=0){
+        index=imgNuberthree.length-1
+    }
+    document.querySelector(".slide-product-two-content-items-content").style.right = index * 100+"%"
 })
