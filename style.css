@@ -592,3 +592,28 @@ li {
 .product-gallery-one {
     margin-top: 30px;
 }
+.product-gallery-one-content-title {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+.product-gallery-one-content-title h2 {
+    color: #333;
+}
+.product-gallery-one-content-title ul li a {
+    color: #333;
+    font-size: 15px;
+    transition: all 0.3s ease;
+}
+.product-gallery-one-content-title ul {
+    display: flex;
+}
+.product-gallery-one-content-title ul li {
+    padding: 6px 12px;
+    border: 1px solid #ddd;
+    margin-left: 12px;
+    border-radius: 40px;
+}
+.product-gallery-one-content-title ul li:hover a {
+    color: red;
+}
