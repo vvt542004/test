@@ -111,7 +111,7 @@ nav ul li:nth-child(9):hover a {
     color: black;
     font-size: 15px;
 }
-.menu-bar ul li a {
+.menu-bar ul li a i {
     margin-right: 6px;
     font-size: 16px;
 }
@@ -295,11 +295,11 @@ li {
     position: relative;
     
 }
-.slider-content-left-top li::before {
+.slider-content-left-bottom li::before {
     display: block;
     content: "";
     position: absolute;
-    height: 70px;
+    height: 40px;
     width: 1px;
     background-color: #ddd;
     right: 0;
@@ -392,6 +392,10 @@ li {
     background-color: yellow;
     padding: 12px;
 
+}
+.slide-product-one-content-title {
+    color: #333;
+    text-align: center;
 }
 .slide-product-one-content-items {
     display: flex;
