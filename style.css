@@ -9,7 +9,7 @@ ul {
 a {
     text-decoration: none;
 }
-.containe {
+.container {
     max-width: 1200px;
     margin: auto;
 }
@@ -587,6 +587,10 @@ li {
 .product-gallery-one-content-title ul li:hover a {
     color: red;
 }
+/*--baner-tw0--*/
+.baner-two {
+    margin-top: 30px;
+}
 /*----slide-product-two--*/
 
 .slide-product-two-content {
@@ -699,6 +703,10 @@ li {
 }
 .slide-product-two-content-items:nth-child(3) {
     transform: translateX(200%);
+}
+/*--baner-tw0--*/
+.baner-three {
+    margin-top: 30px;
 }
 /*----slide-product-three--*/
 
