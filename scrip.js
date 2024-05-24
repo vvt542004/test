@@ -28,20 +28,12 @@ leftbtn.addEventListener("click", function(){
     }
     document.querySelector(".slider-content-left-top").style.right = index * 100+"%"
 })
-
 const imgNuberLi = document.querySelectorAll('.slider-content-left-bottom li')
 imgNuberLi.forEach(function(image,index){
     image.addEventListener("click", function(){
-        removeactive ()
         document.querySelector(".slider-content-left-top").style.right = index * 100+"%"
-        image.classList.add("active")
     })
-
 })
-function removeactive (){
-    let imgactive = document.querySelector('.active')
-    imgactive.classList.remove("active")
-}
 //----slide-product--one--
 const rightbtntwo = document.querySelector('.fa-chevron-right-two')
 const leftbtntwo = document.querySelector('.fa-chevron-left-two')

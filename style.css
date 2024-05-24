@@ -14,10 +14,11 @@ a {
     margin: auto;
 }
 header {
-    background-color: white;
+    background-color: black;
     text-align: center;
     height: 44px;
 }
+
 /*---nav---*/
 nav {
     background-color: rgb(54, 54, 54);
@@ -257,6 +258,7 @@ li {
 .slider-content {
     display: flex;
     justify-content: space-between;
+    background-color: yellow;
 }
 .slider-content-left {
     width: 65%;
@@ -304,9 +306,6 @@ li {
     background-color: #ddd;
     right: 0;
 }
-.slider-content-left-bottom li.active {
-    border-top: 4px solid #FFF200;
-}
 .slider-content-right {
     width: 40%;
     display: flex;
@@ -323,7 +322,8 @@ li {
 }
 .slider-content-right li img {
     height: 170px;
-    width: 230px;
+    width: 250px;
+    border-radius: 10px;
     
 }
 .slider-content-left-top-btn {
@@ -352,6 +352,7 @@ li {
 /*---slide1---*/
 .slider-content-left-top img {
     position: absolute;
+    border-radius: 10px;
 
 
 }
@@ -379,10 +380,7 @@ li {
 .slider-content-left-top {
     transition: all 0.3s ease;
 }
-.slider-content-left-bottom li.active {
-    border-top: 4px solid #FFF200;
-    font-weight: bold;
-}
+
 /*----baner1----*/
 .baner-one {
     margin-top: 30px;
@@ -443,9 +441,7 @@ li {
     margin-right: 6px;
 }
 .slide-product-one-content-item-text li:nth-child(2):hover {
-    
     color: red;
-
 }
 .slide-product-one-content-item-text li:nth-child(4) a {
     text-decoration: line-through;
@@ -455,6 +451,12 @@ li {
 
 .slide-product-one-content-item-text li:last-child i {
     color: gold;
+}
+.baner-four {
+    margin-top: 30px;
+}
+.baner-four img {
+    border-radius: 10px;
 }
 /*----slide-product----*/
 .slide-product-one-content-container {
@@ -546,9 +548,7 @@ li {
     margin-right: 6px;
 }
 .product-gallery-one-content-product-item-text li:nth-child(2):hover {
-    
     color: red;
-
 }
 .product-gallery-one-content-product-item-text li:nth-child(4) a {
     text-decoration: line-through;
@@ -590,6 +590,9 @@ li {
 /*--baner-tw0--*/
 .baner-two {
     margin-top: 30px;
+}
+.baner-two img {
+    border-radius: 10px;
 }
 /*----slide-product-two--*/
 
@@ -704,9 +707,12 @@ li {
 .slide-product-two-content-items:nth-child(3) {
     transform: translateX(200%);
 }
-/*--baner-tw0--*/
+/*--baner-three--*/
 .baner-three {
     margin-top: 30px;
+}
+.baner-three img {
+    border-radius: 10px;
 }
 /*----slide-product-three--*/
 
