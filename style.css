@@ -839,3 +839,48 @@ li {
     color: blue;
     font-size: 20px;
 }
+/*---lsdonhang---*/
+.cotextall {
+    display: flex; 
+    margin-top: 100px;
+}
+.cotext-left {
+    width: 50%;
+    
+}
+.cotext-left img {
+    margin-left: 60px;
+}
+
+.cotext-right {
+    width: 540px;
+    height: 270px;
+    border: 1px solid #333;
+    text-align: center;
+    align-content: center;
+    border-radius: 20px;
+   
+}
+.cotextone {
+    border: 1px solid gray;
+    height: 30px;
+    width: 50%;
+    border-radius: 20px;
+    align-content: center;
+    text-align: center;
+    margin-top: 30px;
+    margin-left: 120px;
+    
+}
+.cotexttwo {
+    background-color: orange;
+    color: white;
+    border: 1px solid orange;
+    height: 30px;
+    width: 50%;
+    border-radius: 20px;
+    align-content: center;
+    text-align: center;
+    margin-top: 30px;
+    margin-left: 120px;
+}
