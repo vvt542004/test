@@ -67,21 +67,17 @@ nav ul li:nth-child(6) {
 nav ul li:nth-child(6):hover a {
     color: yellow;
 }
+
 nav ul li:nth-child(7):hover a {
     color: yellow;
-}
 
+}
 nav ul li:nth-child(8):hover a {
     color: yellow;
 
 }
 nav ul li:nth-child(9):hover a {
     color: yellow;
-
-}
-nav ul li:nth-child(10):hover a {
-    color: yellow;
-
 }
 /*----- menu-bar----*/
 .menu-bar {
@@ -794,8 +790,8 @@ li {
 }
 /*---tragop- Text-*/
 .contentText {
-    background-color: rgb(217, 216, 216);
     padding: 10px 10px;
+    background-color: white;
 }
 .Text, .Text1, .Text2, .Text3, .Text4, .Text5, .Text6, .Text7, .Text8 {
     display: flex;
@@ -840,6 +836,7 @@ li {
     font-size: 20px;
 }
 /*---lsdonhang---*/
+
 .cotextall {
     display: flex; 
     margin-top: 100px;
@@ -871,6 +868,10 @@ li {
     margin-top: 30px;
     margin-left: 120px;
     
+}
+.cotextone p input {
+    border: none;
+    outline: none;
 }
 .cotexttwo {
     background-color: orange;
