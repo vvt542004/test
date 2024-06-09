@@ -795,16 +795,16 @@ li {
     display: flex;
     justify-content: space-between;
 }
-.Text-left, .Text-left1, .Text-left2, .Text-left3, .Text-left4, .Text-left5, .Text-left6, .Text-left7, .Text-left8 {
+.Text-left {
     width: 30%;
 }
-.Text-left img, .Text-left1 img, .Text-left2 img, .Text-left3 img, .Text-left4 img, .Text-left5 img, .Text-left6 img, .Text-left7 img, .Text-left8 img {
+.Text-left img {
     width: 100%;
     height: 100px;
 
 }
 
-.Text-right, .Text-right1, .Text-right2, .Text-right3, .Text-right4, .Text-right5, .Text-right6, .Text-right7, .Text-right8 {
+.Text-right {
     width: 70%;
     margin-left: 10px;
     list-style: none;
