@@ -314,8 +314,6 @@ li {
 .slider-content-left-top img {
     position: absolute;
     border-radius: 10px;
-
-
 }
 .slider-content-left-top a:nth-child(2) img {
     transform: translateX(100%);
