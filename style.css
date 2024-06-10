@@ -357,8 +357,10 @@ li {
 .slide-product-one-content-items {
     display: flex;
     justify-content: space-evenly;
-
+    
 }
+
+
 .slide-product-one-content-item:hover > img {
     transform: translateY(-10px);
 
@@ -369,6 +371,7 @@ li {
     padding: 50px 12px 30px;
     border-radius: 5px;
     cursor: pointer;
+    
 }
 .slide-product-one-content-item > img {
     width: 100%;
